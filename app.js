@@ -16,5 +16,5 @@ app.use("/books", books);
 app.use("/purchase", purchase);
 
 app.listen(process.env.PORT || 3333, () => {
-  console.log(app_url);
+  console.log("Running");
 });
